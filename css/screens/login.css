@@ -1,0 +1,71 @@
+.welcome-header {
+    margin-top: 20%;
+    text-align: center;
+}
+.welcome-header__title{
+    font-size: 24px;
+    font-weight: 500;
+}
+.welcome-header__text {
+    font-weight: 300;
+    margin-top: 4%;
+    margin-bottom: 16%;
+    opacity: 0.4;
+    line-height: 1.2;
+}
+#login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 28px;
+}
+#login-form input {
+    border: none;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.3);
+    padding: 16px 0px;
+    font-size: 16px;
+    transition: border-color 0.4s ease-in-out;
+}
+#login-form input::placeholder {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: 300;
+}
+#login-form input:focus {
+    border-color: #Fae100;
+}
+button.intro-button__log-in, .intro-button__sign-up {
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    padding: 20px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+button.intro-button__log-in, .intro-button__sign-up:focus {
+    outline: none;
+}
+button.intro-button__log-in:hover {
+    color: rgba(0, 0, 0, 0.3);
+}
+button.intro-button__sign-up:hover {
+    color: rgba(0, 0, 0, 0.3);
+}
+.intro-button {
+    display: flex;
+    flex-direction: column;
+    margin: 28px 0px;
+}
+.find-account {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 14px;
+    margin: -16px 0px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    color: black;
+}
+.find-account:hover{
+    color: #fae100;
+}

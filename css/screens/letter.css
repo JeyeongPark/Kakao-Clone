@@ -1,0 +1,117 @@
+.letter-header {
+    top: 0;
+    background-color: #cad9e3;  
+    position: fixed;
+    width: 100%; 
+    color: #242424;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 16px;
+    margin: 28px 24px 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.common-header__iconer {
+    margin-right: 48px;
+}
+.common-header__SearchIconer {
+    margin-right: 8px;
+    margin-left: 12px;
+}
+#letter-status .status-bar {
+    background-color: #cad9e3;
+}
+.main-date {
+    font-size: 12px;
+    color: white;
+    margin: 100px 160px 0px 160px;
+    padding: 8px 0px;
+    border-radius: 12px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.1);
+}
+.jeyeong-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.jeyeong-name {
+    color: rgb(99, 99, 99);
+    font-size: 12px;
+    margin-left: 8px;
+}
+.jeyeong-text {
+    margin-left: 8px;
+    margin-top: 6px;
+    padding: 6px 9px;
+    font-size: 13px;
+    border-radius: 8px;
+    background-color: white;
+}
+.user-component-letter {
+    margin:12px 28px;
+    display: flex;
+    padding-bottom: 12px; 
+}
+.user-component-letter--own {
+    display: flex;
+    justify-content: flex-end;
+}
+.wangwang-text {
+    margin-left: 8px;
+    margin-top: 6px;
+    padding: 6px 9px;
+    font-size: 13px;
+    border-radius: 8px;
+    background-color:#Fae100;
+}
+.jeyeong-addtext {
+    display: flex;
+    margin-left: 76px;
+    margin-right: 205px;
+    margin-top: -16px;
+    padding: 6px 9px;
+    font-size: 13px;
+    border-radius: 8px;
+    background-color: white;
+}
+.jeyeong-moretext {
+    display: flex;
+    margin-left: 76px;
+    margin-right: 350px;
+    margin-top: -16px;
+    padding: 6px 9px;
+    font-size: 13px;
+    border-radius: 8px;
+    background-color: white;
+}
+.jeyeong-moretextt {
+    display: flex;
+    margin-left: 76px;
+    margin-right: 265px;
+    margin-top: -16px;
+    padding: 6px 9px;
+    font-size: 13px;
+    border-radius: 8px;
+    background-color: white;
+}
+.jeyeong-moretexttt {
+    display: flex;
+    margin-left: 76px;
+    margin-right: 280px;
+    margin-top: 8px;
+    padding: 6px 9px;
+    font-size: 13px;
+    border-radius: 8px;
+    background-color: white;
+}
+.main-datee {
+    font-size: 12px;
+    color: white;
+    margin: 100px 160px 490px 160px;
+    padding: 8px 0px;
+    border-radius: 12px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.1);
+}

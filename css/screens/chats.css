@@ -1,0 +1,39 @@
+.letter {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;   
+    color: white;
+    background-color: tomato;
+    padding: 16px;
+}
+.user-component__wangwang {
+    width: 44px;
+    height: 44px;
+    border-radius: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+}
+.user-components__side{
+    margin-left: 154px
+}
+.user-components__time {
+    font-size: 10px;
+    color:rgba(0, 0, 0, 0.3);
+    position: absolute;
+    margin-top: -12px;
+    right: 32px;
+}
+.user-components__alert {
+    background-color: tomato;
+    display: flex;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    color: white;
+    font-size: 8px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 4px;
+    right: 32px;
+}

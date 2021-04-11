@@ -1,0 +1,17 @@
+.common-header {
+    color: #242424;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 56px 28px 24px 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.common-header__tag {
+    color: #242424;
+    font-size: 28px;
+}
+.common-header__icon a {
+    color: #242424;
+    margin-left: 20px;
+}

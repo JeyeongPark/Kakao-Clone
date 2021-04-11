@@ -1,0 +1,64 @@
+.user-component {
+    margin:16px 28px;
+    display: flex;
+    padding-bottom: 12px; 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.user-components__column:first-child {
+    display: flex;
+    align-items: center;
+}
+.user-components__column:nth-child(2) {
+    display: flex;
+    align-items: center;
+}
+
+.user-component__avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 32px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+}
+
+.user-component__avatar--sm {
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+}
+
+.user-component__name {
+    font-weight: 500;
+    font-size: 20px;
+}
+.user-component__music {
+    border: 1.5px solid #5cc952;
+    border-radius: 12px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.4);
+    padding: 6px 8px;
+    position: absolute;
+    margin-top: 4px;
+    right: 32px;
+}
+.user-components__column i{
+    color: #5cc952;
+}
+.about-list {
+    margin-left: 28px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.4);
+}
+.user-component__gf {
+    font-weight: 400;
+    font-size: 16px;
+}
+.user-component__status {
+    font-weight: 400;
+    font-size: 12px;
+    color:rgba(0, 0, 0, 0.4);
+    margin-top: 8px;
+}
